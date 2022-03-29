@@ -32,7 +32,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-3 col-lg-2">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="img/logo.png" alt="">
                             </a>
                         </div>
@@ -41,12 +41,13 @@
                         <div class="main-menu  d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a class="active" href="index.html">Inicio</a></li>
+                                    <li><a class="active" href="index.php">Inicio</a></li>
                                     <li><a href="Department.html">Acerca de</a></li>
                                     <li><a href="#">DX Enfermería <i class="ti-angle-down"></i></a>
                                         <ul class="submenu">
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="single-blog.html">single-blog</a></li>
+                                            <li><a href="diagnosticos.php#nanda">NANDA</a></li>
+                                            <li><a href="diagnosticos.php#nic">NIC</a></li>
+                                            <li><a href="diagnosticos.php#noc">NOC</a></li>
                                         </ul>
                                     </li>
                                     <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
@@ -55,8 +56,8 @@
                                             <li><a href="about.html">about</a></li>
                                         </ul>
                                     </li> -->
-                                    <li><a href="Doctors.html">Enfermeros</a></li>
-                                    <li><a href="contact.html">Contacto</a></li>
+                                    <li><a href="enfermeros.php">Enfermeros</a></li>
+                                    <!-- <li><a href="contacto.php">Contacto</a></li> -->
                                 </ul>
                             </nav>
                         </div>
@@ -64,7 +65,7 @@
                     <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                         <div class="Appointment">
                             <div class="book_btn d-none d-lg-block">
-                                <a class="popup-with-form" href="#test-form">Make an Appointment</a>
+                                <a class="" href="contacto.php">Contacto</a>
                             </div>
                         </div>
                     </div>
